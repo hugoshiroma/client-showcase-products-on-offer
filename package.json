@@ -1,9 +1,9 @@
 {
-  "name": "@meliuz-training/client-showcase-template",
+  "name": "@meliuz-training/client-showcase-products-on-offer",
   "version": "1.0.2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/meliuz-training/client-showcase-template"
+    "url": "git://github.com/meliuz-training/client-showcase-products-on-offer"
   },
   "description": "",
   "main": "./src/module.js",

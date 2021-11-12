@@ -1,31 +1,32 @@
-import {View, Text} from 'react-native';
-import React from 'react';
+import { View, Text } from "react-native";
+import React from "react";
 
 const TemplateScreen = () => (
   <View
     style={{
       flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-      backgroundColor: 'cyan',
-    }}>
+      justifyContent: "center",
+      alignItems: "center",
+      backgroundColor: "cyan",
+    }}
+  >
     <Text>Olá, mundo!</Text>
   </View>
 );
 
 export default class TemplateModule {
   prefix() {
-    return 'template';
+    return "client-showcase-products-on-offer";
   }
 
   tabs() {
     return [
       {
-        id: 'template',
-        label: 'Template',
-        screen: 'template.templateScreen',
-        icon: require('../tab.png'),
-        selectedIcon: require('../tabSelected.png'),
+        id: "client-showcase-products-on-offer",
+        label: "Ofertas",
+        screen: "client-showcase-products-on-offer.templateScreen",
+        icon: require("../tab.png"),
+        selectedIcon: require("../tabSelected.png"),
       },
     ];
   }
@@ -33,7 +34,7 @@ export default class TemplateModule {
   components() {
     return [
       {
-        id: 'template.templateScreen',
+        id: "client-showcase-products-on-offer.templateScreen",
         generator: () => TemplateScreen,
       },
     ];

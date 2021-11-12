@@ -1,4 +1,4 @@
-# client-showcase-template
+# client-showcase-products-on-offer
 
 **:warning::warning::warning: ATENÇÃO: Substituir este trecho :warning::warning::warning:**
 
